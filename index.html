@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20%;
+            transition: background-color 0.5s ease;
+        }
+        #color {
+            font-size: 2rem;
+            margin: 20px;
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button{
+            border-radius: 10px;
+            background-color: white;
+            color: rgb(255, 0, 195);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Color Flipper</h1>
+    <div id="color" style="font-family: cursive;">COLOR</div>
+    <button onclick="flipColor()"><b>Flip Color</b></button>
+
+    <script src="color.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
